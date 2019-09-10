@@ -3,22 +3,64 @@
   <title>Tristan Dooley</title>
   <head>
     <style>
-      div.biobody {
-        color: black;
+      ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #333333;
+      }
+      li {
+        float: left;
+      }
+      li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 16px;
+        text-decoration: none;
+      }
+      li a:hover {
+        background-color: #111111;
+      }
+      body {
+        background-color: #4F4E4E;
+      }
+      div.bio {
+        position: absolute;
+        top: 120px;
+        right: 10px;
+        width: 400px;
+        border: 3px solid #333333;
         background-color: #ACACAC;
         text-align: right;
+        font-size: 20px;
+        padding: 20px;
+        color: black;
       }
       div.biotitle {
-        text-align: right;
+        text-align: left;
+        font-size: 40px;
         color: white;
+      }
+      div.projects {
+        position: absolute;
+        top: 120px;
+        left: 10px;
+        width: 600px;
+        border: 3px solid #333333;
+        padding: 5px;
         background-color: #ACACAC;
       }
     </style>
   </head>
+    <ul>
+      <li><a href ="./">Home</a></li>
+      <li><a href ="./FRC.html">FRC</a></li>
+      <li><a href = "./CADS.html">CADs</a></li>
+    </ul>
   <body>
-    <div class="biotitle">Bio</div>
-    <div class="biobody">My name is Tristan and I am from Bellevue, WA. I am part of the FRC team 2412, and do CAD and electrical. I enjoy math and science.</div>
-    
-    
+    <div class="bio"><div class="biotitle">Bio</div><br>My name is Tristan and I am from Bellevue, WA. I am part of the FRC team 2412, and do CAD and electrical. I enjoy math and science.</div>
+    <div class="projects"><h1 style="line-height: 0px">Projects</h1><div style="height:10px;"></div><h3 style="line-height: 0px">3D printed swerve</h3><div style="height:0px;"></div>A custum 3D printed swerve drive that could be used for FTC bots</div>
   </body>
 </html>
